@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Presidio Mentor — Web Developer & Graphic Designer portfolio.">
+  <title>Presidio Mentor | Web Developer & Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a class="logo" href="#home"><span>P</span>residio<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Available for freelance work</div>
+          <p class="kicker">Hello, I'm</p>
+          <h1>Presidio <span>Mentor</span></h1>
+          <h2>Web Developer <i>&amp;</i> Graphic Designer.</h2>
+          <p class="hero-text">
+            I build clean, responsive and purposeful digital experiences—from modern websites
+            to full-stack web applications and visual designs that help brands stand out.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work <span>↗</span></a>
+            <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+          </div>
+
+          <div class="socials">
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+            <a href="mailto:hello@example.com" aria-label="Email">@</a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal">
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="code-card">
+            <div class="code-top"><span></span><span></span><span></span><b>portfolio.js</b></div>
+            <div class="code-body">
+              <p><em>const</em> developer = {</p>
+              <p class="indent">name: <strong>"Presidio Mentor"</strong>,</p>
+              <p class="indent">role: <strong>"Web Developer"</strong>,</p>
+              <p class="indent">stack: [<strong>"JS", "PHP", "Laravel"</strong>],</p>
+              <p class="indent">design: <strong>true</strong>,</p>
+              <p class="indent">coffee: <strong>true</strong></p>
+              <p>};</p>
+              <p class="cursor-line"><span>&gt;</span> buildSomethingGreat();</p>
+            </div>
+          </div>
+          <div class="floating-card card-top">HTML <b>+</b> CSS</div>
+          <div class="floating-card card-bottom">PHP <b>+</b> Laravel</div>
+        </div>
+      </div>
+      <div class="scroll-hint">SCROLL <span>↓</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="kicker">01 — About</p>
+          <h2>I turn ideas into <span>digital products.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="lead">
+              I'm a web developer and graphic designer focused on creating useful, attractive,
+              and easy-to-use digital experiences.
+            </p>
+            <p>
+              My work combines frontend development, backend engineering, UI design and visual
+              communication. I enjoy taking an idea from a rough concept to a polished product
+              that people can actually use.
+            </p>
+            <p>
+              I work with modern web technologies and continuously improve my skills by building
+              real projects, solving problems and learning new tools.
+            </p>
+            <a href="#contact" class="text-link">Work with me <span>→</span></a>
+          </div>
+          <div class="about-stats reveal">
+            <div class="stat"><strong>01</strong><span>Creative<br>Mindset</span></div>
+            <div class="stat"><strong>02</strong><span>Problem<br>Solver</span></div>
+            <div class="stat"><strong>03</strong><span>Clean<br>Code</span></div>
+            <div class="stat"><strong>04</strong><span>User<br>Focused</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="kicker">02 — Skills</p>
+          <h2>My <span>toolbox.</span></h2>
+          <p>Technologies and tools I use to bring digital ideas to life.</p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal"><span class="skill-icon">01</span><h3>HTML5</h3><p>Semantic, accessible and well-structured interfaces.</p><div class="meter"><i style="width:95%"></i></div></div>
+          <div class="skill-card reveal"><span class="skill-icon">02</span><h3>CSS / Bootstrap</h3><p>Responsive layouts, animations and polished UI systems.</p><div class="meter"><i style="width:92%"></i></div></div>
+          <div class="skill-card reveal"><span class="skill-icon">03</span><h3>JavaScript</h3><p>Interactive, dynamic and engaging frontend experiences.</p><div class="meter"><i style="width:85%"></i></div></div>
+          <div class="skill-card reveal"><span class="skill-icon">04</span><h3>PHP / Laravel</h3><p>Backend logic, authentication, APIs and database-driven apps.</p><div class="meter"><i style="width:82%"></i></div></div>
+          <div class="skill-card reveal"><span class="skill-icon">05</span><h3>MySQL</h3><p>Structured data, relationships, queries and application storage.</p><div class="meter"><i style="width:80%"></i></div></div>
+          <div class="skill-card reveal"><span class="skill-icon">06</span><h3>Graphic Design</h3><p>Brand visuals, social graphics and digital compositions.</p><div class="meter"><i style="width:88%"></i></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="kicker">03 — Services</p>
+          <h2>What I can <span>do for you.</span></h2>
+        </div>
+        <div class="services-grid">
+          <article class="service reveal"><div class="service-number">01</div><div><h3>Web Development</h3><p>Responsive websites and web applications built with clean, maintainable code.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div></div></article>
+          <article class="service reveal"><div class="service-number">02</div><div><h3>Backend Development</h3><p>Secure application logic, authentication, databases and Laravel-powered systems.</p><div class="tags"><span>PHP</span><span>Laravel</span><span>MySQL</span></div></div></article>
+          <article class="service reveal"><div class="service-number">03</div><div><h3>UI / Graphic Design</h3><p>Clean interfaces and visual assets designed around clarity, consistency and brand identity.</p><div class="tags"><span>UI</span><span>Branding</span><span>Graphics</span></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="kicker">04 — Selected Work</p>
+          <h2>Projects I'm <span>proud of.</span></h2>
+        </div>
+        <div class="project-grid">
+          <article class="project project-large reveal">
+            <div class="project-visual wallet-ui">
+              <div class="mini-nav"><b>BillVexa</b><span>Dashboard</span><span>Wallet</span></div>
+              <div class="wallet-card"><small>AVAILABLE BALANCE</small><strong>₦128,450.00</strong><span>•••• 4821</span></div>
+              <div class="mini-row"><span>Electricity</span><span>Airtime</span><span>Data</span><span>TV</span></div>
+            </div>
+            <div class="project-info"><span>FINTECH / WEB APP</span><h3>BillVexa</h3><p>A wallet and bill-payment platform concept with user and admin dashboards, transactions and payment flows.</p><div class="tags"><span>Laravel</span><span>PHP</span><span>MySQL</span><span>Bootstrap</span></div></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-visual landing-ui">
+              <div class="landing-header"><b>STUDIO</b><span>Menu</span></div>
+              <div class="landing-title">BUILD<br><em>BETTER.</em></div>
+              <div class="landing-line"></div>
+            </div>
+            <div class="project-info"><span>WEB DESIGN</span><h3>Creative Landing Page</h3><p>A bold responsive landing page concept focused on typography and conversion.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-visual admin-ui">
+              <div class="admin-head"><b>ADMIN</b><span>● ● ●</span></div>
+              <div class="admin-bars"><i style="height:45%"></i><i style="height:72%"></i><i style="height:58%"></i><i style="height:90%"></i><i style="height:66%"></i></div>
+              <div class="admin-cards"><b></b><b></b><b></b></div>
+            </div>
+            <div class="project-info"><span>ADMIN SYSTEM</span><h3>Management Dashboard</h3><p>A responsive dashboard interface for monitoring users, transactions and platform activity.</p><div class="tags"><span>PHP</span><span>Laravel</span><span>UI</span></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="kicker">05 — Process</p>
+          <h2>How I <span>work.</span></h2>
+        </div>
+        <div class="process-grid">
+          <div class="process-item reveal"><b>01</b><h3>Discover</h3><p>Understand the problem, audience and goals.</p></div>
+          <div class="process-item reveal"><b>02</b><h3>Design</h3><p>Plan the interface, structure and visual direction.</p></div>
+          <div class="process-item reveal"><b>03</b><h3>Build</h3><p>Develop a responsive and functional product.</p></div>
+          <div class="process-item reveal"><b>04</b><h3>Refine</h3><p>Test, improve and polish every important detail.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="kicker">06 — Contact</p>
+          <h2>Have an idea?<br><span>Let's build it.</span></h2>
+          <p>Tell me about your project, what you're trying to achieve, and where you want to go next.</p>
+          <div class="contact-details">
+            <a href="mailto:hello@example.com">hello@example.com</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">github.com/yourusername</a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <label>Name<input type="text" id="name" placeholder="Your name" required></label>
+          <label>Email<input type="email" id="email" placeholder="you@example.com" required></label>
+          <label>Project type
+            <select id="projectType">
+              <option>Web Development</option><option>Graphic Design</option><option>UI Design</option><option>Other</option>
+            </select>
+          </label>
+          <label>Message<textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea></label>
+          <button class="btn btn-primary" type="submit">Send Message <span>↗</span></button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home"><span>P</span>residio<span>.</span></a>
+      <p>© <span id="year"></span> Presidio Mentor. Built with code &amp; creativity.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
