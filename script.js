@@ -67,6 +67,6 @@ document.getElementById("contactForm").addEventListener("submit", event => {
 
   const subject = encodeURIComponent(`Portfolio enquiry — ${type}`);
   const bodyText = encodeURIComponent(`Hello Presidio,\n\nMy name is ${name} (${email}).\n\nProject type: ${type}\n\n${message}`);
-  window.location.href = `mailto:nd407902@gmail.com.com?subject=${subject}&body=${bodyText}`;
+  window.location.href = `mailto:nd407902@gmail.com?subject=${subject}&body=${bodyText}`;
   status.textContent = "Opening your email client…";
 });
